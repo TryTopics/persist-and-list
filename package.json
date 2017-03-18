@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/TryTopics/persist-and-list/issues"
   },
-  "homepage": "https://github.com/TryTopics/persist-and-list#readme"
+  "homepage": "https://github.com/TryTopics/persist-and-list#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "superagent": "^3.5.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
