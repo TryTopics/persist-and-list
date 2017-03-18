@@ -1,0 +1,19 @@
+{
+  "name": "persist-and-list",
+  "version": "1.0.0",
+  "description": "Meddles - with a right to make assumptions - in persistence, search and author APIs to try to meet some use cases",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TryTopics/persist-and-list.git"
+  },
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TryTopics/persist-and-list/issues"
+  },
+  "homepage": "https://github.com/TryTopics/persist-and-list#readme"
+}
