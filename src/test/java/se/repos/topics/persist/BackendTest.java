@@ -23,7 +23,7 @@ public class BackendTest {
 			@Override
 			protected void configure() {
 				bind(CmsRepository.class).toInstance(new CmsRepository(
-						"http://192.168.99.112",
+						"http://topics-demo",
 						"/svn",
 						"topics01"));
 			}

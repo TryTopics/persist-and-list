@@ -28,7 +28,7 @@ public class SearchTest {
 			@Override
 			protected void configure() {
 				bind(String.class).annotatedWith(Names.named("config:se.simonsoft.cms.hostname"))
-					.toInstance("192.168.99.112");
+					.toInstance("topics-demo");
 				bind(String.class).annotatedWith(Names.named("config:se.simonsoft.cms.repoparent"))
 					.toInstance("/svn");
 			}
@@ -58,11 +58,6 @@ public class SearchTest {
 			System.out.println("Hit: " + item.getId().toString());
 		}
 		assertNotEquals("should have hits", 0, hits);
-	}
-	
-	@Test
-	public void testXml() {
-		fail("Not yet implemented");
 	}
 
 }
